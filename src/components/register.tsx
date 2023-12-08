@@ -22,7 +22,7 @@ const Register: React.FC = () => {
         address,
       };
       console.log(requestData)
-      const response = await fetch('http://127.0.0.1:5000/user/', {
+      const response = await fetch('https://tstfastapi.azurewebsites.net/user/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
