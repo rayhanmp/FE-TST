@@ -1,4 +1,3 @@
-import React from 'react';
 import Login from './components/login';
 import Register from './components/register';
 import Logout from './components/logout';
